@@ -7,3 +7,5 @@
 ### Tecnologías utilizadas:
 - HTML5
 - CSS3
+- Javascript
+- Github Pages
