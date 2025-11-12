@@ -1,0 +1,33 @@
+:root {
+    --fondo: #f4f6f8;
+    --texto: #1a1f24;
+    --muted: #6b7280;
+    --borde: #d9dde2;
+    --primario: #2563eb;
+    --primarioSuave: #60a5fa;
+    --tarjeta: #ffffff;
+}
+
+html[data-tema="oscuro"] {
+    --fondo: #0f172a;
+    --texto: #e2e8f0;
+    --muted: #94a3b8;
+    --borde: #1e293b;
+    --primario: #60a5fa;
+    --primarioSuave: #93c5fd;
+    --tarjeta: #1e293b;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
