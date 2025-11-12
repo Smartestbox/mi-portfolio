@@ -169,3 +169,18 @@ main {
     margin: 4px 0 0;
     color: var(--muted);
 }
+
+.listaHabilidades {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 0;
+    margin: 0;
+}
+
+.listaHabilidades li {
+    border: 1px solid var(--borde);
+    padding: 6px 9px;
+    border-radius: 999px;
+    background: var(--tarjeta);
+}
