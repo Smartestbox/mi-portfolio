@@ -39,3 +39,47 @@ body {
     color: var(--texto);
     line-height: 1.6;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    border-bottom: 1px solid var(--borde);
+}
+
+.marcaSitio {
+    text-align: center;
+}
+
+.marcaTexto {
+    font-weight: 600;
+    color: var(--texto);
+}
+
+.barraNavegacion ul {
+    display: grid;
+    grid-template-columns: repeat(8, max-content);
+    place-items: center;
+}
+
+.enlaceNavegacion {
+    color: var(--muted);
+    padding: 6px 10px;
+    border-radius: 12px;
+    transition: background .2s ease, color .2s ease, transform .15s ease;
+    white-space: nowrap;
+}
+
+.enlaceNavegacion:hover {
+    color: var(--texto);
+    background: var(--borde);
+}
+
+.botonTema {
+    border: 1px solid var(--borde);
+    background: transparent;
+    border-radius: 12px;
+    padding: 6px 10px;
+    cursor: pointer;
+}
