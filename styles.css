@@ -18,6 +18,10 @@ html[data-tema="oscuro"] {
     --tarjeta: #1e293b;
 }
 
+html[data-tema="oscuro"] .iconoInvertido {
+    filter: invert(1);
+}
+
 html {
     scroll-behavior: smooth;
 }
