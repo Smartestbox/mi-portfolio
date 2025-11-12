@@ -188,3 +188,25 @@ main {
 .listaSimple li {
     margin: 6px 0;
 }
+
+.bloqueContacto {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.iconoSocial {
+    display: inline-flex;
+    align-items: center;
+    column-gap: 8px;
+    color: var(--texto);
+    border: 1px solid var(--borde);
+    padding: 8px 16px;
+    border-radius: 10px;
+    transition: background .2s ease, transform .15s ease;
+}
+
+.iconoSocial:hover {
+    background: var(--borde);
+    transform: translateY(-1px);
+}
