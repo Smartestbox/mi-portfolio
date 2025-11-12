@@ -18,6 +18,10 @@ html[data-tema="oscuro"] {
     --tarjeta: #1e293b;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     box-sizing: border-box;
 }
