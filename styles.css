@@ -31,3 +31,11 @@ ul {
     padding: 0;
     margin: 0;
 }
+
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    background: var(--fondo);
+    color: var(--texto);
+    line-height: 1.6;
+}
