@@ -83,3 +83,59 @@ header {
     padding: 6px 10px;
     cursor: pointer;
 }
+
+main {
+    max-width: 980px;
+    min-width: 400px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.seccion {
+    padding: 40px 0;
+    border-bottom: 1px solid var(--borde);
+}
+
+.seccion h1 {
+    margin: 0;
+}
+
+.seccion h2 {
+    font-size: 25px;
+    margin: 0 0 16px;
+}
+
+.bloqueInicio {
+    display: flex;
+    gap: 16px;
+    padding-top: 8px;
+}
+
+.fotoPerfil {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--borde);
+    background: var(--tarjeta);
+}
+
+.subtituloPrincipal {
+    margin: 4px 0;
+    color: var(--muted);
+}
+
+.botonAccion {
+    display: inline-block;
+    background: var(--primario);
+    color: #fff;
+    border-radius: 12px;
+    padding: 8px 16px;
+    margin-top: 8px;
+    transition: transform .15s ease, background .2s ease;
+}
+
+.botonAccion:hover {
+    background: var(--primarioSuave);
+    transform: translateY(-1px);
+}
