@@ -210,3 +210,9 @@ main {
     background: var(--borde);
     transform: translateY(-1px);
 }
+
+footer {
+    padding: 32px 16px;
+    text-align: center;
+    color: var(--muted);
+}
