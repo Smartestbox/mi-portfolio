@@ -184,3 +184,7 @@ main {
     border-radius: 999px;
     background: var(--tarjeta);
 }
+
+.listaSimple li {
+    margin: 6px 0;
+}
