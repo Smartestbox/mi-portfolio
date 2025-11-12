@@ -139,3 +139,33 @@ main {
     background: var(--primarioSuave);
     transform: translateY(-1px);
 }
+
+.listaTarjetas {
+    display: grid;
+    gap: 16px;
+    grid-template-columns:repeat(auto-fit, minmax(240px, 1fr));
+    margin: 0;
+    padding: 0;
+}
+
+.tarjetaProyecto, .tarjetaTestimonio {
+    background: var(--tarjeta);
+    border: 1px solid var(--borde);
+    border-radius: 16px;
+    padding: 16px;
+    transition: transform .15s ease, box-shadow .2s ease;
+}
+
+.tarjetaProyecto:hover, .tarjetaTestimonio:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 24px rgba(0, 0, 0, .06);
+}
+
+.tituloTarjeta {
+    margin: 32px 0 4px;
+}
+
+.metaTarjeta {
+    margin: 4px 0 0;
+    color: var(--muted);
+}
