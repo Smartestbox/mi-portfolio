@@ -224,3 +224,50 @@ footer {
     text-align: center;
     color: var(--muted);
 }
+
+@media (max-width: 1165px) {
+    .barraNavegacion ul {
+        grid-template-columns: repeat(4, max-content);
+    }
+}
+
+@media (max-width: 764px) {
+    .barraNavegacion ul {
+        grid-template-columns: repeat(2, max-content);
+        row-gap: 8px;
+        column-gap: 16px;
+    }
+}
+
+@media (max-width: 597px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 16px;
+    }
+
+    .seccion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bloqueContacto {
+        flex-direction: column;
+        align-items: center;
+        flex-grow: 0;
+        row-gap: 16px;
+    }
+
+    .bloqueInicioInfo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .iconoSocial {
+        width: max-content;
+        border: none;
+    }
+}
